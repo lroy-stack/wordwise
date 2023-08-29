@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="calculator.js"></script>
+  <script src="pop-up.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Servicio de Traducción</title>
+  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="calculator.css">
+  <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="#" class="logo-link"><img src="logo.png" alt="WordWise" width="150" height="150"></a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#traductor">Traductor</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Bienvenido a Tu Servicio de Traducción</h1>
+      <p>Tu Socio Confiable en Traducción de Alemán y Español</p>
+      <a href="#cotizacion" class="cta-button" id="open-popup">Obtener una Cotización</a>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <h3>Contacto</h3>
+          <p>¡Contáctanos para cualquier consulta!</p>
+          <div class="contact-icons">
+            <div class="contact-icon">
+              <a href="mailto:l.roy.lwe@gmail.com"><img src="gmail-icon.png" alt="Gmail"></a>
+            </div>
+            <div class="contact-icon">
+              <a href="https://wa.me/654243994"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            </div>
+            <div class="contact-icon">
+              <a href="https://t.me/insomnialz"><img src="telegram-icon.png" alt="Telegram"></a>
+            </div>
+            <div class="contact-icon">
+              <a href="https://www.facebook.com/leroylowe1"><img src="facebook-icon.png" alt="Facebook"></a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://github.com/lroy-stack"><img src="github-icon.png" alt="Facebook"></a>
+              </div>
+          </div>
+          <p>¡Siempre a tu disposición para responder a tus preguntas y brindarte la mejor atención posible!</p>
+          <button id="close-popup">Cerrar</button>
+        </div>
+      </div>
+  </header>
+
+  <!-- Otras secciones aquí -->
+  <section id="servicios">
+      <h2>Nuestros Servicios</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="traduccion-icono.png" alt="Icono Traducción">
+        <h3>Traducción General</h3>
+        <p>Ofrecemos traducción de una amplia variedad de documentos, como artículos, cartas y más.</p>
+      </div>
+      <div class="service">
+        <img src="especializada-icono.png" alt="Icono Traducción Especializada">
+        <h3>Traducción Especializada</h3>
+        <p>Especializados en traducción de documentos médicos, legales, tecnológicos, etc.</p>
+      </div>
+      <!-- Agrega más servicios aquí -->
+    </div>
+  </section>
+  <section id="precios">
+    <div class="pricing-container">
+      <h2>Nuestros Precios</h2>
+      <ul class="price-list">
+        <li>Traducción de artículos: "500 palabras" 35 €</li>
+        <li>Traducción de correos electrónicos: 10 € por correo</li>
+        <li>Traducción de documentos Notariales: 50 € por página</li>
+        <!-- Agrega más precios aquí -->
+      </ul>
+      <div class="calculator">
+        <h3>Calculadora de Presupuesto</h3>
+        <label for="words">Número de Palabras:</label>
+        <input type="number" id="words" min="0">
+        <button id="calculate-button">Calcular</button>
+        <p id="result">El costo estimado es: 0 €</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 WordWise by l.r0y</p>
+  </footer>
+</body>
+</html>
